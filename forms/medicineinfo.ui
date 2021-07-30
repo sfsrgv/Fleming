@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MedicineInfo</class>
+ <widget class="QDialog" name="MedicineInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Medicine Info</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">MedicineInfo {
+	background-color: white;
+font: 57 8pt &quot;TT Norms Medium&quot;;
+color: red;
+}
+
+
+QPushButton {
+ background-color: red;
+ color: white;
+ padding: 10px 20px;
+ text-align: center;
+ font-size: 16px;
+ margin: 4px 2px;
+ border-radius: 4;
+ font: 57 8pt &quot;TT Norms Medium&quot;;
+}
+
+QPushButton:hover {
+     background-color: #FF5757;
+}
+
+QPushButton:pressed {
+  background-color: rgb(85, 0, 0);
+}
+
+QTextBrowser {
+	background-color: white;
+	color: red;
+	border: none;
+   border-radius: 4;
+   font: 57 8pt &quot;TT Norms Light&quot;;
+}
+
+QCalendarWidget QToolButton {
+font: 57 8pt &quot;TT Norms Medium&quot;;
+ border-radius: 4;
+  	height: 20px;
+  	width: 70px;
+  	color: white;
+  	font-size: 14px;
+  	icon-size: 56px, 56px;
+  	background-color: rgb(255, 0, 0);
+  }
+ QCalendarWidget QToolButton {
+font: 57 8pt &quot;TT Norms Medium&quot;;
+  	height: 30px;
+  	width: 70px;
+  	color: white;
+  	font-size: 16px;
+  	icon-size: 20px, 20px;
+  	background-color: rgb(255, 0, 0);
+ border-radius: 4;
+  }
+  QCalendarWidget QMenu {
+font: 57 8pt &quot;TT Norms Medium&quot;;
+  	width: 70px;
+  	left: 20px;
+  	color: white;
+  	font-size: 16px;
+  	background-color: rgb(100, 100, 100);
+ border-radius: 4;
+  }
+  QCalendarWidget QSpinBox { 
+font: 57 8pt &quot;TT Norms Medium&quot;;
+  	width: 10px; 
+  	font-size:12px; 
+  	color: white; 
+  		background-color: rgb(255, 0, 0);
+  	selection-background-color: rgb(136, 136, 136);
+  	selection-color: rgb(255, 255, 255);
+  }
+  QCalendarWidget QSpinBox::up-button { subcontrol-origin: border;  subcontrol-position: top right;  width:65px; }
+  QCalendarWidget QSpinBox::down-button {subcontrol-origin: border; subcontrol-position: bottom right;  width:65px;}
+  QCalendarWidget QSpinBox::up-arrow { width:56px;  height:56px; }
+  QCalendarWidget QSpinBox::down-arrow { width:56px;  height:56px; }
+   
+  /* header row */
+  QCalendarWidget QWidget { alternate-background-color: rgb(214, 214, 214); }
+   
+  /* normal days */
+  QCalendarWidget QAbstractItemView:enabled 
+  {
+font: 57 8pt &quot;TT Norms Medium&quot;;
+  	font-size:16px;  
+  	color: rgb(0, 0, 0); 
+  	background-color: white;  
+  	selection-background-color: rgb(255, 0, 0); 
+  	selection-color: rgb(255, 255, 255);
+  }
+   
+  /* days in other months */
+  /* navigation bar */
+QCalendarWidget QWidget#qt_calendar_navigationbar
+{ 
+background-color: rgb(255, 0, 0);
+}
+
+QCalendarWidget QAbstractItemView:disabled 
+{ 
+color: rgb(64, 64, 64); 
+}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>601</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'TT Norms Light'; font-size:8pt; font-weight:56; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-weight:400;&quot;&gt;There are no meds in your calendar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Change</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
