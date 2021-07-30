@@ -11,6 +11,6 @@ After you added medicine you will see them on the main screen. Just choose the d
 ![Show all window](/screenshots/allmedicine.jpg) <br>
 ![Change window](/screenshots/changemedicine.jpg) <br>
 ![Unsaved changes](/screenshots/unsavedchanges.jpg) <br>
-After you save chages they will immediatlu appear on your calendar. After you close Fleming all last changes will be saved and you'll see them next time you open it.
+After you save chages they will immediately appear on your calendar. After you close Fleming all last changes will be saved and you'll see them next time you open it.
 <hr>
 2021, May
