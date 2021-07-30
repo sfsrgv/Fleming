@@ -1,6 +1,6 @@
 # Fleming
 ## What is Fleming?
-Fleming is a Medical Tracker desctop app made using C++ and Qt. It gives you an opportunity to make a personal schedule of taking your medicine. Fleming allows you to specify various parameters when adding a medicine. After adding all medicine can be deleted, changed or viewed.
+Fleming is a Medical Tracker desktop app made using C++ and Qt. It gives you an opportunity to make a personal schedule of taking your medicine. Fleming allows you to specify various parameters when adding a medicine. After adding all medicine can be deleted, changed or viewed.
 ## How does it work?
 Main window where you can find your calendar, add new medicine or look through all medicine you have and change them: <br>
 ![Main window](/screenshots/mainwindow.jpg) <br>
